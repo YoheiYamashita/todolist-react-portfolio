@@ -1,10 +1,25 @@
 import './App.css';
 import React,{useState,useRef,useEffect}from 'react';
 import { v4 as uuidv4 } from 'uuid';
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
 
 import UncompTodoList from './components/UncompTodoList';
 import CompTodoList from './components/CompTodoList';
 import Title from './components/Title';
+
+
+const inputParent = css`
+text-align:center;
+margin:2rem;
+`
+
+const input=css`
+height:30px;
+width:50%;
+font-size:1.5rem;
+
+`
 
 
 function App() {
@@ -113,9 +128,11 @@ function App() {
 
       <Title />
 
+      <div css={inputParent}>
       <form action=""onSubmit={handleAddTodo}>
-        <input type="text"  ref={todoNameRef}  placeholder="タスクの追加"/>
+        <input type="text"  ref={todoNameRef}  placeholder="タスクの追加"　css={input}/>
       </form>
+      </div>
       <div>
        
      </div>
