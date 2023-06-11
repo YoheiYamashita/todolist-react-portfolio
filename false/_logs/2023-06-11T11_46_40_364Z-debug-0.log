@@ -1,0 +1,76 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.19.2
+2 info using node@v18.12.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\pj\todolist-react-portfolio\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\ruiyo\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\ruiyo\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 17ms
+19 timing npm:load:configload Completed in 17ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm install gh-pages
+23 verbose argv "install" "gh-pages" "--save-dev"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:C:\pj\todolist-react-portfolio\false\_logs
+28 verbose logfile C:\pj\todolist-react-portfolio\false\_logs\2023-06-11T11_46_40_364Z-debug-0.log
+29 timing npm:load:logFile Completed in 7ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 1ms
+32 timing npm:load Completed in 32ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 954ms
+36 timing idealTree:userRequests Completed in 3ms
+37 silly idealTree buildDeps
+38 silly fetch manifest gh-pages@*
+39 timing arborist:ctor Completed in 0ms
+40 silly placeDep ROOT gh-pages@ OK for: todolist-react-portfolio@0.1.0 want: *
+41 timing idealTree:#root Completed in 133140ms
+42 timing idealTree:node_modules/gh-pages Completed in 0ms
+43 timing idealTree:buildDeps Completed in 133141ms
+44 timing idealTree:fixDepFlags Completed in 16ms
+45 timing idealTree Completed in 134115ms
+46 timing command:install Completed in 134176ms
+47 verbose type system
+48 verbose stack FetchError: request to https://registry.npmjs.org/gh-pages failed, reason: connect ETIMEDOUT 2606:4700::6810:1923:443
+48 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+48 verbose stack     at ClientRequest.emit (node:events:513:28)
+48 verbose stack     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+48 verbose stack     at TLSSocket.emit (node:events:525:35)
+48 verbose stack     at emitErrorNT (node:internal/streams/destroy:151:8)
+48 verbose stack     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+48 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+49 verbose cwd C:\pj\todolist-react-portfolio
+50 verbose Windows_NT 10.0.19045
+51 verbose node v18.12.1
+52 verbose npm  v8.19.2
+53 error code ETIMEDOUT
+54 error syscall connect
+55 error errno ETIMEDOUT
+56 error network request to https://registry.npmjs.org/gh-pages failed, reason: connect ETIMEDOUT 2606:4700::6810:1923:443
+57 error network This is a problem related to network connectivity.
+57 error network In most cases you are behind a proxy or have bad network settings.
+57 error network
+57 error network If you are behind a proxy, please make sure that the
+57 error network 'proxy' config is set properly.  See: 'npm help config'
+58 verbose exit 1
+59 timing npm Completed in 134360ms
+60 verbose unfinished npm timer reify 1686484000537
+61 verbose unfinished npm timer reify:loadTrees 1686484000595
+62 verbose code 1
+63 error A complete log of this run can be found in:
+63 error     C:\pj\todolist-react-portfolio\false\_logs\2023-06-11T11_46_40_364Z-debug-0.log
