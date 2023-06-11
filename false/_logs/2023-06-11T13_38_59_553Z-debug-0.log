@@ -31,3 +31,8 @@
 30 timing npm:load Completed in 28ms
 31 silly logfile start cleaning logs, removing 2 files
 32 silly logfile done cleaning log files
+33 timing command:run-script Completed in 5009028ms
+34 timing command:start Completed in 5009037ms
+35 verbose exit 3221225786
+36 timing npm Completed in 5009080ms
+37 verbose code 3221225786
